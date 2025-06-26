@@ -3,8 +3,6 @@
 > *"Type what you’ve got. Eat what it becomes."*  
 A quirky, AI-powered recipe generator that transforms whatever's lurking in your fridge into something *almost* gourmet — powered by Gemini, FastAPI, and React.
 
-![MakeThisEdible Screenshot](screenshot.png) <!-- Optional: Add a real screenshot -->
-
 ---
 
 ## 🍳 What It Does
