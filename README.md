@@ -1,12 +1,97 @@
-# React + Vite
+# 🧠 MakeThisEdible.ai
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *"Type what you’ve got. Eat what it becomes."*  
+A quirky, AI-powered recipe generator that transforms whatever's lurking in your fridge into something *almost* gourmet — powered by Gemini, FastAPI, and React.
 
-Currently, two official plugins are available:
+![MakeThisEdible Screenshot](screenshot.png) <!-- Optional: Add a real screenshot -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🍳 What It Does
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+MakeThisEdible.ai helps people (especially students and busy humans) figure out **what to cook using whatever random ingredients they already have**.
+
+Just type in the ingredients → the app uses **Google's Gemini API** to generate a realistic, quick recipe.
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: React + TailwindCSS
+- **Backend**: FastAPI (Python)
+- **LLM**: Gemini API (Google Generative AI)
+- **Deployment**: Vercel (frontend) + Render (backend)
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Clone the repo:
+```bash
+git clone https://github.com/vidhimudaliar/make-this-edible-ai.git
+cd make-this-edible-ai
+```
+
+### 2. Install frontend dependencies:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 3. Install backend dependencies:
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### 4. Add your Gemini API key
+Create a `.env` file in `/backend`:
+```env
+GEMINI_API_KEY=your-google-api-key
+```
+
+---
+
+## ✨ Features
+
+- 🧠 Gemini-powered recipe generation
+- ✅ Ingredient filters (e.g. vegetarian, microwave-only)
+- 🧊 Handles weird combos with grace (or humor)
+- 🧾 Clean UI with React + Tailwind
+- 📦 Easy to deploy and extend
+
+---
+
+## 💡 Future Ideas
+
+- 🥕 Image upload of fridge items
+- 🔄 Save + favorite recipes
+- 🗓️ Weekly meal planner
+- 🛒 Smart grocery suggestions
+
+---
+
+## 👩‍💻 Made By
+
+**Vidhi Mudaliar**  
+Inspired by the struggle of 2 a.m. hunger and a completely chaotic fridge.
+
+---
+
+## 📸 Screenshot
+
+> _Coming soon!_
+
+---
+
+## 📎 License
+
+[MIT License](LICENSE)
+
+---
+
+## 🧡 Like it? Star it!
+
+If this made you laugh or saved you from eating plain rice again — consider giving it a ⭐ on GitHub!
