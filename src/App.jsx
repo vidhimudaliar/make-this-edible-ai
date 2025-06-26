@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-yellow-50 p-6 font-sans">
-      <h1 className="text-4xl font-bold text-center mb-8">🥦 MakeThisEdible.ai</h1>
+      <h1 className="text-4xl font-bold text-center mb-8">🥕 MakeThisEdible.ai</h1>
       <InputForm setRecipe={setRecipe} />
       {recipe && <RecipeCard recipe={recipe} />}
     </div>

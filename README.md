@@ -1,11 +1,11 @@
-# 🧠 MakeThisEdible.ai
+# 🥕 MakeThisEdible.ai
 
 > *"Type what you’ve got. Eat what it becomes."*  
 A quirky, AI-powered recipe generator that transforms whatever's lurking in your fridge into something *almost* gourmet — powered by Gemini, FastAPI, and React.
 
 ---
 
-## 🍳 What It Does
+## 🧠 What It Does
 
 MakeThisEdible.ai helps people (especially students and busy humans) figure out **what to cook using whatever random ingredients they already have**.
 
