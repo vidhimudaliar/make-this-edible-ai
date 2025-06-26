@@ -22,6 +22,25 @@ Just type in the ingredients → the app uses **Google's Gemini API** to generat
 
 ---
 
+## ✨ Features
+
+- 🧠 Gemini-powered recipe generation
+- ✅ Ingredient filters (e.g. vegetarian, microwave-only)
+- 🧊 Handles weird combos with grace (or humor)
+- 🧾 Clean UI with React + Tailwind
+- 📦 Easy to deploy and extend
+
+---
+
+## 💡 Future Ideas
+
+- 🥕 Image upload of fridge items
+- 🔄 Save + favorite recipes
+- 🗓️ Weekly meal planner
+- 🛒 Smart grocery suggestions
+
+---
+
 ## 🚀 How to Run Locally
 
 ### 1. Clone the repo:
@@ -52,44 +71,11 @@ GEMINI_API_KEY=your-google-api-key
 
 ---
 
-## ✨ Features
-
-- 🧠 Gemini-powered recipe generation
-- ✅ Ingredient filters (e.g. vegetarian, microwave-only)
-- 🧊 Handles weird combos with grace (or humor)
-- 🧾 Clean UI with React + Tailwind
-- 📦 Easy to deploy and extend
-
----
-
-## 💡 Future Ideas
-
-- 🥕 Image upload of fridge items
-- 🔄 Save + favorite recipes
-- 🗓️ Weekly meal planner
-- 🛒 Smart grocery suggestions
-
----
-
 ## 👩‍💻 Made By
 
 **Vidhi Mudaliar**  
 Inspired by the struggle of 2 a.m. hunger and a completely chaotic fridge.
 
 ---
-
-## 📸 Screenshot
-
-> _Coming soon!_
-
----
-
-## 📎 License
-
-[MIT License](LICENSE)
-
----
-
-## 🧡 Like it? Star it!
 
 If this made you laugh or saved you from eating plain rice again — consider giving it a ⭐ on GitHub!
