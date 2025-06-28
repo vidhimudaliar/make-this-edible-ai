@@ -31,3 +31,8 @@ backend/firebase-service-account.json
 .env
 backend/.env
 frontend/.env
+
+.cursor/
+.DS_Store
+*.pyc
+backend/__pycache__/
